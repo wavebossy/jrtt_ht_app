@@ -1,0 +1,19 @@
+<script>
+    ws = new WebSocket("ws://127.0.0.1:1234");
+    ws.onopen = function() {
+        console.log("连接成功");
+        var s = Array(1,2,3);
+        ws.send(s);
+        console.log("给服务端发送:" + s);
+    };
+    ws.onmessage = function(e) {
+        console.log("收到服务端的消息：" + e.data);
+    };
+    ws.onclose = function() {
+        console.log("链接关闭");
+    };
+    ws.onerror = function(e) {
+        console.log("链接出错");
+        console.log(e);
+    };
+</script>

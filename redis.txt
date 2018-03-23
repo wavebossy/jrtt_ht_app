@@ -1,0 +1,13 @@
+检测是否有安装redis-cli和redis-server
+
+[root@localhost bin]# whereis redis-cli
+redis-cli: /usr/bin/redis-cli
+
+[root@localhost bin]# whereis redis-server
+redis-server: /usr/bin/redis-server
+
+
+启动redis		redis-server &
+停止redis		redis-cli shutdown
+检测后台进程是否存在	ps -ef |grep redis
+检测6379端口是否在监听	netstat -lntp | grep 6379
