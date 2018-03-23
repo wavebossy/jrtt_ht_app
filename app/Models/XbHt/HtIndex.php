@@ -50,6 +50,7 @@ class HtIndex extends Model{
                     ->where("status",1)
                     ->where("admin_id",session("admin_xb")->admin_id)
                     ->orWhere("admin_id",1)
+                    ->orderBy('is_top','desc')
                     ->orderBy('times','desc')
                     ->get()->toArray();
             }else{
