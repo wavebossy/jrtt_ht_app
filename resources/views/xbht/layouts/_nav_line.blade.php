@@ -23,9 +23,9 @@
                 {{--</ul>--}}
             {{--</li>--}}
 
-            <li>
-                <a class="active-menu" target="_blank" href="/{{htname}}/notice/1"><i class="fa fa-book"></i> 基础教程 </a>
-            </li>
+            {{--<li>--}}
+                {{--<a class="active-menu" target="_blank" href="/{{htname}}/notice/1"><i class="fa fa-book"></i> 基础教程 </a>--}}
+            {{--</li>--}}
             <li>
                 <a class="active-menu" href="/{{htname}}/videoTutorials"><i class="fa fa-video-camera"></i> 视频教程 </a>
             </li>
