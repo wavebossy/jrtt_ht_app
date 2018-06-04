@@ -11,6 +11,9 @@
                 {{--<a class="active-menu" target="_blank" href="http://xf.wangzherongyao.cn/"><i class="fa fa-dashboard"></i> 采集平台 </a>--}}
                 {{--<a class="active-menu" target="_blank" href="/{{htname}}/toutiaoArticle"><i class="fa fa-dashboard"></i> 采集平台 </a>--}}
             </li>
+            <li>
+                <a class="active-menu" href="/{{htname}}/profitlist"><i class="fa fa-user"></i> 账号管理 </a>
+            </li>
             {{--<li class="active">--}}
                 {{--<a href="#"><i class="fa fa-sitemap"></i> 数据统计 <span class="fa arrow"></span></a>--}}
                 {{--<ul class="nav nav-second-level">--}}
@@ -36,9 +39,9 @@
                 {{--<a class="active-menu" href="/{{htname}}/balance_xb"><i class="fa fa-dashboard"></i> 结算记录 </a>--}}
             {{--</li>--}}
 
-            {{--<li>--}}
-                {{--<a class="active-menu" href="/{{htname}}/opinion"><i class="fa fa-dashboard"></i> 意见反馈 </a>--}}
-            {{--</li>--}}
+            <li>
+                <a class="active-menu" href="/{{htname}}/opinion"><i class="fa fa-dashboard"></i> 意见反馈 </a>
+            </li>
 
             {{--<li>--}}
                 {{--<a href="#"><i class="fa fa-sitemap"></i> 三级菜单 <span class="fa arrow"></span></a>--}}

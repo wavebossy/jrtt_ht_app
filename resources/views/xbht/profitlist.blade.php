@@ -42,9 +42,9 @@
                     <td>手机号</td>
                     <td>头条号指数</td>
                     {{--<td>总计</td>--}}
-                    @foreach($articles->searchDate as $time)
-                        <td>{{$time}}</td>
-                    @endforeach
+                    {{--@foreach($articles->searchDate as $time)--}}
+                        {{--<td>{{$time}}</td>--}}
+                    {{--@endforeach--}}
                 </tr>
                 @if(!empty($articles->sumDataTable))
                     @foreach($articles->sumDataTable as $sumDataTable)
@@ -54,11 +54,11 @@
                             <td>
                                 <a href="#" class="table_td_data_index" data-pk="{{$sumDataTable->admin_id}}" >{{$sumDataTable->tindex}}</a>
                             </td>
-                            @foreach($sumDataTable->dataTable as $item)
-                                <td style="color: {{$item->counts>1?"red":""}}">
-                                    <a href="#" class="table_td_data" data-select_time="{{$item->select_time}}" data-admin_id="{{$item->admin_id}}" >{{$item->moneysums}}</a>
-                                </td>
-                            @endforeach
+                            {{--@foreach($sumDataTable->dataTable as $item)--}}
+                                {{--<td style="color: {{$item->counts>1?"red":""}}">--}}
+                                    {{--<a href="#" class="table_td_data" data-select_time="{{$item->select_time}}" data-admin_id="{{$item->admin_id}}" >{{$item->moneysums}}</a>--}}
+                                {{--</td>--}}
+                            {{--@endforeach--}}
                         </tr>
                     @endforeach
                 @endif
